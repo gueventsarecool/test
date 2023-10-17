@@ -1,0 +1,16 @@
+GET http://localhost:3001/cars
+
+###
+POST http://localhost:3001/car/new
+Content-Type: application/json
+
+{
+    "carName": "BMW",
+    "speed": 150
+}
+
+###
+DELETE http://localhost:3001/car/delete/65189b0c92f5d101282a8322
+
+###
+GET http://localhost:3001/car/choose/65189ae592f5d101282a8311
